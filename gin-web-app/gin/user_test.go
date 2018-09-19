@@ -1,7 +1,7 @@
 package gin_test
 
 import (
-	//. "github.com/nickstaggs/go-web-apps/gin"
+	//"github.com/nickstaggs/go-web-apps/gin-web-app/gin"
 
 	"bytes"
 	"encoding/json"

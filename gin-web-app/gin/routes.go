@@ -2,7 +2,7 @@ package gin
 
 import (
 	"time"
-  "github.com/nickstaggs/go-web-apps/config"
+  "github.com/nickstaggs/go-web-apps/gin-web-app/config"
 
 	"github.com/gin-gonic/gin"
 	cors "github.com/itsjamie/gin-cors"

@@ -6,7 +6,7 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/jinzhu/gorm"
-  "github.com/nickstaggs/go-web-apps/config"
+  	"github.com/nickstaggs/go-web-apps/gin-web-app/config"
 
 	// recommended by gorm to have this blank import
 	_ "github.com/jinzhu/gorm/dialects/mysql"

@@ -10,9 +10,9 @@ import (
 	"net/http/httptest"
 
   "github.com/golang/glog"
-	"github.com/nickstaggs/go-web-apps/config"
-  testapi "github.com/nickstaggs/go-web-apps/gin"
-	testgorm "github.com/nickstaggs/go-web-apps/gorm"
+	"github.com/nickstaggs/go-web-apps/gin-web-app/config"
+  testapi "github.com/nickstaggs/go-web-apps/gin-web-app/gin"
+	testgorm "github.com/nickstaggs/go-web-apps/gin-web-app/gorm"
 	"testing"
 
 	"github.com/gin-gonic/gin"

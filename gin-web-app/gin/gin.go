@@ -1,7 +1,7 @@
 package gin
 
 import (
-  "github.com/nickstaggs/go-web-apps/config"
+  	"github.com/nickstaggs/go-web-apps/gin-web-app/config"
 	"strconv"
 
 	"github.com/caarlos0/env"
