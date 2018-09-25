@@ -1,0 +1,101 @@
+#Contact img {
+    width: 46%;
+    padding-top: 13%;
+}
+
+.slider {
+  border-width: medium;
+  border-color: black;
+}
+
+#Contact {
+  box-sizing: initial;
+}
+
+.parallax img {
+    max-width: 100%;
+    max-height: 2000%;
+}
+
+.parallax-container {
+  height: 90vh !important;
+  z-index: 0;
+}
+
+.logo {
+  font-size: 4em;
+  font-family: 'Barrio', cursive;
+  padding-left: .1em;
+}
+
+nav {
+  background-color: black;
+}
+
+.slider .slides li .caption {
+  top: 5%;
+  left: 5%;
+}
+
+.parallax h1 {
+  text-align: center;
+  color: white;
+  position: relative;
+  width: 100%;
+}
+
+.parallax h1:after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    bottom: 0;
+    left: 45%;
+    border-bottom: .01em solid white;
+}
+
+.parallax p {
+  color:white;
+  z-index: 1;
+  text-align: center;
+
+}
+
+.about-text-box {
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: .01em;
+}
+
+.parallax img {
+  z-index: -5;
+}
+
+nav ul a:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+.pdfobject-container {
+  height: 88vh;
+}
+
+.blogPostTitle {
+    text-align: center;
+}
+
+.blogPostBody {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.about-text-box a {
+  z-index: 10;
+}
+
+pre {
+  background-color: black;
+  color: #efefef;
+  border-radius: 3px;
+  padding: 10px;
+}

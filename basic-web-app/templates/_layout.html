@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Nick Staggs</title>
+    <meta name="description" content="Nick Staggs's Blog and Portfolio Page" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="height=device-height, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href="css/app.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <!-- <script src="dependencies/pdfobject/pdfobject.min.js"></script> -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+</head>
+
+<body>
+    {{template "_header.html"}} {{template "content"}} {{template "_footer.html"}}
+    <script>
+
+        $(document).ready(function () {
+            $('.parallax').parallax();
+            $('.slider').slider();
+        })
+
+    </script>
+</body>
+
+</html>
